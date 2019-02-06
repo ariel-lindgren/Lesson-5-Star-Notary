@@ -1,0 +1,37 @@
+{
+  "name": "lesson-5-star-notary",
+  "version": "1.0.0",
+  "description": "This project contains the code for a Smart Contract compliant with the ERC-721 Token to manage non-fungible tokens for the CryptoStar DAPP.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "any-promise": "^1.3.0",
+    "bindings": "^1.4.0",
+    "debug": "^4.1.1",
+    "file-uri-to-path": "^1.0.0",
+    "is-typedarray": "^1.0.0",
+    "ms": "^2.1.1",
+    "nan": "^2.12.1",
+    "openzeppelin-solidity": "^2.1.2",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "typedarray-to-buffer": "^3.1.5",
+    "websocket": "^1.0.28",
+    "yaeti": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariel-lindgren/Lesson-5-Star-Notary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariel-lindgren/Lesson-5-Star-Notary/issues"
+  },
+  "homepage": "https://github.com/ariel-lindgren/Lesson-5-Star-Notary#readme"
+}

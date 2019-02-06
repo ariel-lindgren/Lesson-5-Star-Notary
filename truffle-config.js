@@ -22,11 +22,11 @@
  *
  */
 
-// const HDWalletProvider = require('truffle-hdwallet-provider');
-// const infuraKey = "<KEY>";
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const infuraKey = "190044ad015d4a87b8ae2d14a250e1bf";
 //
 // const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "crowd exile goddess below survey movie bless remove trigger render trip avocado";
 
 module.exports = {
   /**
@@ -73,12 +73,12 @@ module.exports = {
       // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     // },
 
-    // rinkeby: {
-    //   provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraKey}`),
-    //   network_id: 4,       // rinkeby's id
-    //   gas: 4500000,
-    //   gasPrice: 10000000000
-    // },
+    rinkeby: {
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraKey}`),
+      network_id: 4,       // rinkeby's id
+      gas: 4500000,
+      gasPrice: 10000000000
+    },
 
     // Useful for private networks
     // private: {
