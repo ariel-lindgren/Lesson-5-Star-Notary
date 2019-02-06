@@ -1,6 +1,6 @@
-# Star Notary DAPP
+# CryptoStar Dapp
 
-This project contains the code for a Smart Contract compliant with the ERC-721 Token to manage non-fungible tokens for a Star Notary DAPP.
+This project contains the code for a Smart Contract compliant with the ERC-721 Token to manage non-fungible tokens for the CryptoStar DAPP.
 
 ## Getting Started
 
